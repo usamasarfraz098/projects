@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(237, 234, 234);
+    width: 100%;
+    min-height: 100vh;
+    font-size: 20px;
+    /* position: relative; */
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: bisque;
+    position: relative;
+    /* height: 300px; */
+    padding-top: 1%;
+    /* margin-top: 30px; */
+}
+.img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+.scoreCard{
+    border: 3px solid;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+}
+.user{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    position: absolute;
+    top: 30%;
+    left: -17%;
+    font-size: 10px;
+}
+.comp{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    position: absolute;
+    top: 30%;
+    right: -20%;
+    font-size: 10px;
+}
+.content_text{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.subheading{
+    margin-top: 40px;
+}
+.game_img{
+    margin: 20px 0px;
+}
