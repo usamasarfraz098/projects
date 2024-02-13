@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    border: 5px solid rgb(31, 25, 48);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+}
+
+.hours {
+    border-left: 5px solid white;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(120deg);
+    transform-origin: 50% 100%;
+}
+
+.min {
+    border-left: 3px solid white;
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(80deg);
+    transform-origin: 50% 100%;
+}
+
+.sec {
+    border-left: 1px solid white;
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(50deg);
+    transform-origin: 50% 100%;
+}
+
+ .clock-centre {
+    width: 20px;
+    height: 20px;
+    background-color:rgb(48, 48, 49);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}  
+
+
+
+
+ /* .clock-timer{
+    width: 15px;
+    height: 5px;
+     position: absolute;
+    border-left: 5px solid
+    wheat;
+    background-color: antiquewhite;
+   
+    left: 50%;
+    top: 4%;
+    
+    transform-origin:50% 100%;
+    transform: translate(-50%,-100%) rotate(90deg);
+   
+}   */

@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock{
+    border: 5px solid white;
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.min,.sec{
+    margin-left: 20px;
+}
+.coln{
+    margin-left: 10px;
+}
