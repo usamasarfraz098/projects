@@ -23,6 +23,8 @@ body{
     align-items: center;
     font-size: 2rem;
     font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
     
 }
 .min,.sec{
@@ -30,4 +32,10 @@ body{
 }
 .coln{
     margin-left: 10px;
+}
+@media (max-width:780px) {
+    .clock{
+        width: 35%;
+    }
+    
 }
